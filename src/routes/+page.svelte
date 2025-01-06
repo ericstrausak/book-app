@@ -16,21 +16,6 @@
         </div>
 
 
-<!--<ComponentA></ComponentA>-->
-<!--<form onsubmit={handleData}>
-    <div class="mb-3">
-        <label class="form-label" for="">Vorname</label>
-        <input bind:value={user.first} class="form-control" type="text" />
-    </div>
-
-    <div class="mb-3">
-        <label class="form-label" for="">Vorname</label>
-        <input bind:value={user.last} class="form-control" type="text" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-
-</form>-->
 
 <style>
    
