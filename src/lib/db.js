@@ -196,6 +196,25 @@ async function deleteBook(id) {
   return null;
 }
 
+async function getBookByName(name) {
+    let book = null;
+    try {
+        const collection = db.collection("Books");
+        const query = { "book title": name }; // Match by book title
+        book = await collection.findOne(query);
+
+        if (!book) {
+            console.log("No book found with name " + name);
+        } else {
+            book._id = book._id.toString();
+        }
+    } catch (error) {
+        console.error("Error fetching book by name:", error.message);
+    }
+    return book;
+}
+
+
 //////////////////////////////////////////
 // Export Functions
 //////////////////////////////////////////
