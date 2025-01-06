@@ -1,0 +1,11 @@
+
+h1 {
+    color: orangered;
+}
+
+.logo {
+    width: 45px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    
+    opacity: 0.9; /* Adjust transparency */
+}
