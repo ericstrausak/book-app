@@ -8,16 +8,7 @@
 <form class="mt-3" method="POST" action="?/update">
   <input type="hidden" name="_id" value={data.book._id} />
 
-  <div class="mb-3">
-    <label class="form-label">Rank</label>
-    <input
-      name="rank"
-      bind:value={data.book.Rank}
-      class="form-control"
-      type="number"
-      min="1"
-    />
-  </div>
+  
 
   <div class="mb-3">
     <label class="form-label">Book Title</label>

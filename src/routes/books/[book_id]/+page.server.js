@@ -12,7 +12,7 @@ export const actions = {
 
     let book = {
       _id: data.get("_id"), // Include the ID to update the correct record
-      Rank: parseInt(data.get("rank")), // Ensure it's an integer
+      
       "book title": data.get("book title"),
       rating: parseFloat(data.get("rating")), // Ensure it's a float
       author: data.get("author"),

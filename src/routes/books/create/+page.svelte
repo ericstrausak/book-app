@@ -7,17 +7,6 @@
 
 <form method="POST" action="?/create">
 <div class="mb-3">
-  <label for="rank" class="form-label">Rank</label>
-  <input
-    id="rank"
-    name="rank" 
-    class="form-control"
-    type="number"
-    min="1"
-    required
-  />
-</div>
-<div class="mb-3">
   <label for="book-title" class="form-label">Book Title</label>
   <input
     id="book-title"

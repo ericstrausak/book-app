@@ -8,7 +8,7 @@
     <thead>
       <tr>
         <th>ID</th>
-        <th>Rank</th>
+        
         <th>Book Title</th>
         <th>Rating</th>
         <th>Author</th>
@@ -25,7 +25,7 @@
               {book._id}
             </a>
           </td>
-          <td>{book.Rank}</td>
+         
           <td>{book["book title"]}</td>
           <td>{book.rating}</td>
           <td>{book.author}</td>
