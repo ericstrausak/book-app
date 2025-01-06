@@ -1,5 +1,4 @@
 <script>
-    import ComponentA from "$lib/components/ComponentA.svelte";
 </script>
 
 <div class="container svelte-9e0nj2">
