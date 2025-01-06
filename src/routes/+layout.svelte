@@ -70,16 +70,16 @@
                 <h5>Explore</h5>
                 <ul class="footer-links">
                     <li>
-                        <a href="/topbooks" class="svelte-1subzap">Best Reads</a
+                        <a href="/books" class="svelte-1subzap">Best Reads</a
                         >
                     </li>
                     <li>
-                        <a href="/mybookdb" class="svelte-1subzap"
+                        <a href="/reviews/create" class="svelte-1subzap"
                             >Make your own reviews!</a
                         >
                     </li>
                     <li>
-                        <a href="/mybookdb/all" class="svelte-1subzap"
+                        <a href="/reviews" class="svelte-1subzap"
                             >Your reviews</a
                         >
                     </li>
