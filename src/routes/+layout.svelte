@@ -88,7 +88,6 @@
             </div>
             <div class="footer-section">
                 <h5>Follow Us</h5>
-                <div class="social-icons svelte-1subzap"></div>
             </div>
         </div>
         <p class="footer-slogan">
